@@ -54,3 +54,33 @@
 	vertical-align: middle;
 	text-align: center;
 }
+.social {
+	display: inline-block;
+	margin: 0;
+	float: right;
+}
+.social li {
+	display: inline-block;
+	float: left;
+	width: 63px;
+	height: 63px;
+	border-left: 1px solid #dee0e6;
+	border-collapse: collapse;
+}
+
+.social li:last-child { border-right: 1px solid #dee0e6;}
+
+.social-icons {
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+.social .fb { background-image: url('../img/facebook.png'); }
+.social .tw { background-image: url('../img/twitter.png'); }
+.social .ig { background-image: url('../img/instagram.png'); }
+.social .gp { background-image: url('../img/g.png'); }
+
+.social a {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
