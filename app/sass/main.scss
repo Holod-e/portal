@@ -214,14 +214,16 @@ p { @include mainFont; }
 	background: url(../img/services-title-icon.png) no-repeat;
 }
 
-.services-title .title {
+.services-title .title,
+.projects-title .title {
 	padding-top: 15px;
 	font: bold 44px 'Open Sans';
 	color: #6d6e71;
 	margin: 0; 
 }
 
-.services-title p {
+.services-title p, 
+.projects-title p {
 	@include mainFont;
 	margin: 0;
 }
@@ -252,3 +254,67 @@ p { @include mainFont; }
 	background-position: 100px top;
 }
 
+//=================PROJECTS===========//
+
+.projects {
+	width: 100%;
+	min-height: 1000px;
+	background-color: #efefef;
+}
+
+.projects-title {
+	display: block;
+	height: 151px;
+	margin: 58px 0 80px 25%;
+	padding-left: 160px;
+	padding-top: 23px;
+	background: url(../img/project-title-icon.png) no-repeat;
+}
+
+.project-name {
+	padding: 16px 6px 0 6px;
+	background-color: white;
+	border-radius: 5px;
+	margin-bottom: 18px;
+}
+
+.image-wrap {
+	text-align: center;
+}
+
+.link-icon {
+	position: relative;
+	display: inline-block;
+	width: 49%;
+	height: 59px;
+	border-right: 1px solid #efefef;
+	background-color: #fff;
+}
+
+.plus-icon {
+	position: relative;
+	display: inline-block;
+	width: 49%;
+	height: 59px;
+	background-color: #fff;
+}
+
+.linka {
+	position: absolute;
+	display: block;
+	width: 23px;
+	height: 23px;
+	left: 40%;
+	top: 33%;
+	background: url(../img/linka.png) no-repeat;
+}
+
+.plusa {
+	position: absolute;
+	display: block;
+	width: 24px;
+	height: 24px;
+	left: 40%;
+	top: 33%;
+	background: url(../img/plusa.png) no-repeat;
+}
