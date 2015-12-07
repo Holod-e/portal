@@ -383,3 +383,61 @@ p { @include mainFont; }
 .twg { background-image: url(../img/twg.png);}
 .isg { background-image: url(../img/isg.png);}
 .ing { background-image: url(../img/ing.png);}
+.gpg { background-image: url(../img/gpg.png);}
+.fbgf{ background-image: url(../img/fbgf.png);}
+.twgf{ background-image: url(../img/twgf.png);}
+.isgf{ background-image: url(../img/isgf.png);}
+
+//footer
+
+footer {
+	height: 200px;
+	background-color: #2b2c2d;
+}
+
+footer .social {
+	float: left;
+}
+
+footer .social li{
+	margin-top: 78px;
+	border-left: 1px solid #3c3e3f;;
+}
+
+footer .social li:last-child { border-right: 1px solid #3c3e3f;}
+
+.mailform {
+	display: block;
+	max-width: 594px;
+	height: 66px;
+	margin-top: 85px;
+	padding: 10px;
+	border-radius: 10px;
+	background: #393b3c url(../img/mail-icon.png) no-repeat 20px 50%;
+}
+
+.mail_input {
+	display: inline-block;
+	width: 400px;
+	margin: 10px 0 10px 45px;
+	padding-left: 45px;
+	font: bold 14px/27px 'Open Sans';
+	color: #6d6e71;
+	border: none;
+	background-color: #393b3c;
+}
+
+::-webkit-input-placeholder {
+	font: bold 14px/27px 'Open Sans';
+	color: #6d6e71;
+}
+
+.btn {
+	background-color: #494c4d;
+	border-radius: 10px;
+	padding: 15px 25px;
+	font: bold 14px 'Open Sans';
+	color: #6d6e71;
+	border: none;
+	float: right;
+}
