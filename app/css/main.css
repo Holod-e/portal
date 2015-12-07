@@ -28,7 +28,7 @@ p {
 
 .top_header {
   width: 100%;
-  height: 63px;
+  min-height: 63px;
   background-color: #eceef4; }
 
 .blog-nav {
@@ -127,7 +127,8 @@ p {
   left: 0;
   top: 61px;
   display: block;
-  width: 403px;
+  max-width: 403px;
+  min-width: 320px;
   height: 93px;
   background-image: url(../img/logo.png);
   text-align: center;
@@ -297,12 +298,17 @@ p {
   margin-bottom: 18px; }
 
 .image-wrap {
-  text-align: center; }
+  height: 205px;
+  text-align: center;
+  overflow: hidden; }
+
+.image-wrap img {
+  max-width: 100%; }
 
 .link-icon {
   position: relative;
   display: inline-block;
-  width: 49%;
+  width: 48%;
   height: 59px;
   border-right: 1px solid #efefef;
   background-color: #fff; }
@@ -310,7 +316,7 @@ p {
 .plus-icon {
   position: relative;
   display: inline-block;
-  width: 49%;
+  width: 48%;
   height: 59px;
   background-color: #fff; }
 
@@ -406,7 +412,7 @@ p {
   background-image: url(../img/isgf.png); }
 
 footer {
-  height: 200px;
+  min-height: 200px;
   background-color: #2b2c2d; }
 
 footer .social {
@@ -443,7 +449,7 @@ footer .isgf:hover {
 
 .mail_input {
   display: inline-block;
-  width: 400px;
+  width: 300px;
   margin: 10px 0 10px 45px;
   padding-left: 45px;
   font: bold 14px/27px 'Open Sans';
